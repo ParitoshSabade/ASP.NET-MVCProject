@@ -12,8 +12,24 @@ namespace MVCProject.Controllers
     public class HomeController : Controller
     {
         // GET: /<controller>/
+        [Route("register")]
         public IActionResult Index(Student student)
         {
+            if(!ModelState.IsValid)
+            {
+                List<string> errorsList = new List<string>();
+                foreach (var value in ModelState.Values)
+                {
+                    foreach (var error in value.Errors)
+                    {
+                        errorsList.Add(error.ErrorMessage);
+                    }
+                }
+
+                string errors = string.Join("\n", errorsList);
+                return BadRequest(errors);
+                
+            }
             return Content($"{student}");
         }
     }

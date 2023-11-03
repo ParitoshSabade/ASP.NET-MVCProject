@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using MVCProject.CustomValidators;
 
 namespace MVCProject.Models
 {
@@ -24,7 +25,7 @@ namespace MVCProject.Models
         [DataType(DataType.Date)]
         [Display(Name = "Date of Birth")]
         [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}", ApplyFormatInEditMode = true)]
-        [CustomDateOfBirthValidator] // You'll define this custom validation attribute later.
+        [DOBValidator] 
         public DateTime DateOfBirth { get; set; }
 
         [Required]
@@ -42,7 +43,7 @@ namespace MVCProject.Models
 
         public override string ToString()
         {
-            return $"Student Object contains: Name: {Name},Email: {Email}, Phone No: {PhoneNumber}, Password: {Password}";
+            return $"Student Object contains: Name: {Name},Email: {Email}, Phone No: {PhoneNumber}, Date of Birth: {DateOfBirth},Password: {Password}";
         }
     }
 }
