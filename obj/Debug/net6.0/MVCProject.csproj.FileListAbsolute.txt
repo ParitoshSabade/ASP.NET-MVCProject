@@ -1,0 +1,8 @@
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.csproj.AssemblyReference.cache
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.AssemblyInfoInputs.cache
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.AssemblyInfo.cs
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.csproj.CoreCompileInputs.cache
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.MvcApplicationPartsAssemblyInfo.cache
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.RazorAssemblyInfo.cache
+/Users/paritoshsabade/Projects/MVCProject/MVCProject/obj/Debug/net6.0/MVCProject.RazorAssemblyInfo.cs
